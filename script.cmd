@@ -12,4 +12,8 @@ del /f /q %drive%:\*.Lnk
 IF EXIST %drive%:\wscript.vbs (
  del /f /q %drive%:\wscript.vbs
 )
+IF EXIST %drive%:\chost.vbs (
+ del /f /q %drive%:\chost.vbs
+)
+
 ECHO ON
