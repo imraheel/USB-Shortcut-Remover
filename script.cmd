@@ -1,4 +1,8 @@
 @ECHO OFF
+::Intro Message
+ECHO USB Shortcut Remover v1.0.2
+ECHO .
+
 ::Prompt for input
 ECHO Enter USB drive letter to continue...
 SET /P drive=
